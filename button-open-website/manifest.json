@@ -4,7 +4,10 @@
   "version": "1.0",
   "description": "This is my extension",
   "permissions": [
-    "storage"
+    "storage",
+    "tabs",
+    "activeTab",
+    "scripting"
   ],
   "action": {
     "default_popup": "popup.html"
